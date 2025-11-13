@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الموقع الرسمي للأستاذ مرغاد فؤاد</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #1e3a8a;
+            color: #fff;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.2em;
+        }
+        header p {
+            margin: 5px 0 0 0;
+            font-size: 1.1em;
+        }
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            margin-top: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #1e3a8a;
+            margin-top: 0;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .contact a {
+            display: inline-block;
+            margin-right: 10px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #1e3a8a;
+            padding: 8px 15px;
+            border-radius: 6px;
+            transition: background 0.3s;
+        }
+        .contact a:hover {
+            background-color: #3749b0;
+        }
+        .languages span {
+            margin-right: 10px;
+            font-size: 1.2em;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+            background-color: #1e3a8a;
+            color: #fff;
+            border-radius: 12px 12px 0 0;
+        }
+        .services li::before {
+            content: "✅ ";
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 100%;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>الموقع الرسمي للأستاذ مرغاد فؤاد</h1>
+    <p>كاتب عمومي معتمد بولاية بسكرة – الترخيص رقم 76 مؤرخ في أفريل 2023</p>
+</header>
+
+<section>
+    <h2>📌 البيانات الشخصية</h2>
+    <ul>
+        <li><strong>الاسم الكامل:</strong> مرغاد فؤاد</li>
+        <li><strong>الصفة:</strong> كاتب عمومي معتمد بولاية بسكرة</li>
+        <li><strong>الترخيص:</strong> رقم 76 مؤرخ في أفريل 2023</li>
+        <li><strong>العنوان:</strong> حارة الواد، حي جواد، بسكرة</li>
+        <li><strong>الموقع الجغرافي:</strong> 📍 VP2M+MCG, Biskra</li>
+    </ul>
+</section>
+
+<section>
+    <h2>📞 وسائل التواصل</h2>
+    <div class="contact">
+        <a href="tel:0671659543">الاتصال / واتساب</a>
+        <a href="mailto:fouadmerghad70@gmail.com">البريد الإلكتروني</a>
+        <a href="#">فيسبوك</a>
+    </div>
+</section>
+
+<section>
+    <h2>⚖️ الخدمات المقدمة</h2>
+    <ul class="services">
+        <li>تحرير الطلبات والعقود والعرائض الإدارية</li>
+        <li>تحرير الطعون والتظلمات</li>
+        <li>صياغة التصريحات والشكاوى</li>
+        <li>تحرير عقود الكراء والبيع</li>
+        <li>تحرير عقود الاعتراف بالدين والتعهد</li>
+        <li>تحرير المراسلات الرسمية</li>
+        <li>نسخ وتصحيح الوثائق الإدارية</li>
+        <li>خدمات قانونية وإدارية متنوعة</li>
+    </ul>
+</section>
+
+<section>
+    <h2>🌍 اللغات المعتمدة</h2>
+    <div class="languages">
+        <span>العربية 🇩🇿</span>
+        <span>الفرنسية 🇫🇷</span>
+        <span>الإنجليزية 🇬🇧</span>
+        <span>الإسبانية 🇪🇸</span>
+        <span>الإيطالية 🇮🇹</span>
+    </div>
+</section>
+
+<section>
+    <h2>💼 شعار الموقع</h2>
+    <p>"خدمات قانونية وإدارية موثوقة بكل اللغات المعتمدة – ولاية بسكرة"</p>
+</section>
+
+<section class="image-container">
+    <img src="https://images.unsplash.com/photo-1581091215361-48a0b8b91c7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTI3M3wwfDF8c2VhcmNofDF8fG9mZmljZSUyMGFkbWluaXN0cmF0aXZlfGVufDB8fHx8MTY5NzI1MTM4Nw&ixlib=rb-4.0.3&q=80&w=1080" alt="مكتب كاتب عمومي، وثائق، قلم رسمي، ميزان العدل">
+</section>
+
+<footer>
+    © 2025 الأستاذ مرغاد فؤاد – جميع الحقوق محفوظة
+</footer>
+
+</body>
+</html>
